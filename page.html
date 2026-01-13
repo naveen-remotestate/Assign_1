@@ -10,55 +10,56 @@
 </head>
 
 <body>
+    <div class="container">
     <aside class="sidebar">
         <div class="sidebar__top">
 
             <div class="brand">
-                <span class="brand__name"><img src="Union.svg" alt="Brand Logo icon and Name- Neptune"></span>
+                <span class="brand__name"><img src="images/brand_logo.svg" alt="Brand Logo icon and Name- Neptune"></span>
             </div>
 
             <div class="user-card">
                 <div class="leftdiv">
-                    <div class="user-card__img"><img src="Group 79.svg"></div>
+                    <div class="user-card__img"><img src="images/Usercard_icon.svg"></div>
                     <div class="user-card__info">
                         <span class="user-card__name">Jessica Thompson</span>
                         <span class="user-card__role">Primary User</span>
                     </div>
                 </div>
                 <div>
-                    <img id="icon__right" src="Icon Right.svg" alt="icon pointing below">
+                    <img id="icon__right" src="images/dropdown_icon.svg" alt="icon pointing below">
                 </div>
             </div>
 
             <nav class="nav">
                 <a href="#" class="nav__item">
                     <div class="nav__menu">
-                        <div class="nav__icon"><img src="home 1.svg" alt="home icon"></div>
+                        <div class="nav__icon"><img src="images/home_icon.svg" alt="home icon"></div>
                         <div class="nav__text">Home</div>
                     </div>
                 </a>
                 <a href="#" class="nav__item nav__item--active">
                     <div class="nav__menu">
-                        <div class="nav__icon"><img src="file-text 1.svg" alt="Document icon"></div>
+                        <div class="nav__icon"><img src="images/document_icon.svg" alt="Document icon"></div>
                         <div class="nav__text">Documents</div>
                     </div>
                 </a>
 
                 <a href="#" class="nav__item">
                     <div class="nav__menu">
-                        <div class="nav__icon"><img src="message-circle 1.svg" alt="Chat icon"></div>
+                        <div class="nav__icon"><img src="images/chat_icon.svg" alt="Chat icon"></div>
                         <div class="nav__text">Chat with Neptune</div>
                     </div>
                 </a>
                 <a href="#" class="nav__item">
                     <div class="nav__menu">
-                        <div class="nav__icon"><img src="help-circle 1.svg" alt="Help icon"></div>
+                        <div class="nav__icon"><img src="images/help_icon.svg" alt="Help icon"></div>
                         <div class="nav__text">Help</div>
                     </div>
                 </a>
                 <a href="#" class="nav__item">
                     <div class="nav__menu">
-                        <div class="nav__icon"><img src="settings 1.svg" alt="Setting icon"></div>
+                        <div class="nav__icon"><img src="images/settings_icon.svg" alt="Setting icon"></div>
                         <div class="nav__text">Settings</div>
                     </div>
                 </a>
@@ -67,28 +68,33 @@
         </div>
 
         <div class="sidebar__bottom">
-            <img id="phone__icon" src="phone 1.svg" alt="phone icon">
-            <p class="support__title">Having trouble?</p>
-            <p class="support__text">
+            <div><img id="phone__icon" src="images/phone_icon.svg" alt="phone icon"></div>
+            <div><p class="support__title">Having trouble?</p></div>
+            <div><p class="support__text">
                 Feel free to contact us and we will always help you through the process.
-            </p>
-            <button class="support__button">Contact us</button>
+            </p></div>
+           <div> <button class="support__button">Contact us</button></div>
         </div>
     </aside>
     <div class="page">
 
         <div class="breadcrumb">
             <span class="breadcrumb-main">Home</span>
-            <span class="breadcrumb-separator"><img src="chevron-right.svg"></span>
+            <span class="breadcrumb-separator"><img src="images/breadcrumb_arrow.svg"></span>
             <span class="breadcrumb-current">Documents</span>
         </div>
 
         <div class="header">
             <h1 class="page-title">My Documents</h1>
+            <div class="addAndSearch">
+            <div>
+                <button class="add-btn btn-outline">Add</button>
+            </div>
 
             <div class="search-box">
                 <input type="text" placeholder="Search documents" />
-                <span class="search-icon"><img src="Layer_1.svg"></span>
+                <span class="search-icon"><img id="placeholder_icon" src="images/search_icon.svg"></span>
+            </div>
             </div>
         </div>
 
@@ -120,7 +126,7 @@
                         <td>
                             <button class="btn-outline">Sign now</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                     <tr>
@@ -136,7 +142,7 @@
                         <td>
                             <button class="btn-outline">Preview</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                     <tr>
@@ -152,7 +158,7 @@
                         <td>
                             <button class="btn-outline">Preview</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                     <tr>
@@ -167,7 +173,7 @@
                         <td>
                             <button class="btn-outline">Download PDF</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                     <tr>
@@ -182,7 +188,7 @@
                         <td>
                             <button class="btn-outline">Download PDF</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                     <tr>
@@ -197,13 +203,14 @@
                         <td>
                             <button class="btn-outline">Download PDF</button>
                         </td>
-                        <td class="menu"><img src="Vector.svg"></td>
+                        <td class="menu"><img src="images/threeDot_icon.svg"></td>
                     </tr>
 
                 </tbody>
             </table>
         </div>
 
+    </div>
     </div>
 </body>
 
