@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f6f5f2;
+}
+
+.sidebar {
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 20%;
+    height: 1000px;
+    left: -19px;
+    top: -24px;
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    margin-top: 36px;
+    margin-left: 35px;
+}
+
+
+.brand__name {
+    color: #1f3b3f;
+}
+
+.leftdiv {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-card {
+    justify-content: space-between;
+    margin-left: 35px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+.user-card__img {
+    width: 36px;
+    height: 36px;
+    background-color: #d8e3e1;
+    border-radius: 50%;
+}
+
+.user-card__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card__name {
+    font-family: Spline Sans;
+    font-style: SemiBold;
+    line-height: 140%;
+    letter-spacing: 0%;
+
+
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.user-card__role {
+    font-size: 12px;
+    color: #7a7a7a;
+}
+
+#icon__right {
+    align-items: end;
+}
+
+.nav {
+    margin-left: 35px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 226;
+    height: 22;
+    top: 201px;
+    left: 95px;
+    opacity: 1;
+
+}
+
+.nav__item {
+
+    font-family: 'Spline Sans';
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #626D82;
+    font-size: 14px;
+    border-radius: 8px;
+}
+
+.nav a img {
+    width: 24px;
+    height: 24px;
+    left: 54px;
+    top: 199px;
+}
+.nav__menu{
+    display: flex;
+    flex-direction: row;
+}
+.nav__icon{
+    display: flex;
+    flex-direction: row;
+}
+.nav__text{
+    margin-left: 10px;
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.nav__item:hover {
+    background-color: #eef4f3;
+}
+
+.nav__item--active {
+    background-color: #D3F7B5;
+    color: #1F4451;
+    font-weight: 400;
+}
+
+.sidebar__bottom {
+    /* Group 27 */
+
+    position: absolute;
+    width: 289px;
+    height: 140px;
+    left: 35px;
+
+
+
+    padding-top: 20px;
+}
+
+#phone__icon {
+
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    left: 35px;
+    top: 755px;
+
+
+}
+
+.support__title {
+    width: 289;
+    height: 28;
+    top: 807px;
+    left: 35px;
+    opacity: 1;
+
+
+    position: absolute;
+    width: 289px;
+    height: 28px;
+    left: 35px;
+    top: 807px;
+
+    font-family: 'Spline Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    color: #1F4451;
+
+
+
+    margin-bottom: 6px;
+}
+
+.support__text {
+    position: absolute;
+    width: 276px;
+    height: 53px;
+    left: 35px;
+    top: 844px;
+
+    font-family: 'Spline Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+
+    color: #626D82;
+
+
+}
+
+.support__button {
+
+    position: absolute;
+    width: 97px;
+    height: 34px;
+    left: 35px;
+    top: 913px;
+
+    background-color: #1f3b3f;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.support__button:hover {
+    opacity: 0.9;
+}
+
+
+body {
+    background-color: #f6f5f2;
+    color: #1f2937;
+}
+
+.page {
+    max-width: 1100px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    color: #9ca3af;
+    margin-bottom: 16px;
+}
+
+.breadcrumb-link {
+    color: #436D7C;
+}
+
+.breadcrumb-separator {
+    margin-top: 2px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.page-title {
+
+    font-family: 'Zin Display';
+    font-weight: 600;
+    font-size: 33px;
+
+    color: #2A2A2A;
+
+
+    font-weight: 700;
+}
+
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    width: 260px;
+    padding: 10px 36px 10px 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    color: #9ca3af;
+}
+
+.table-card {
+    background: #ffffff;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+}
+
+.documents-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #ffffff;
+}
+
+th {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+    color: #374151;
+    padding: 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+td {
+    padding: 16px;
+    border-bottom: 1px solid #f1f5f9;
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+.col-checkbox {
+    width: 40px;
+}
+
+.col-action {
+    width: 160px;
+}
+
+.col-menu {
+    width: 40px;
+    text-align: center;
+}
+
+.doc-title {
+    color: #436D7C;
+    font-weight: 600;
+}
+
+.status {
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.needs-signing {
+    background: #436D7C;
+    color: #ffffff;
+}
+
+.pending {
+    background:#E8ECF1;
+    color: #626D82;
+}
+
+.completed {
+    background: #D3F7B5;
+    color: #365314;
+}
+
+.status-sub {
+    font-size: 16px;
+    color: #6b7280;
+    margin-top: 4px;
+    font-style: italic;
+}
+
+.date {
+    font-size: 14px;
+    color: #626D82;
+}
+
+.date span {
+    color: #6b7280;
+}
+
+.btn-outline {
+    width: 100%;
+    color: #626D82;
+    padding: 8px 14px;
+    border: 1px solid #d1d5db;
+    background: #ffffff;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.btn-outline:hover {
+    background: #f9fafb;
+}
+
+.menu {
+    font-size: 18px;
+    color: #6b7280;
+    cursor: pointer;
+}

@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Neptune Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="sidebar__top">
+
+            <div class="brand">
+                <span class="brand__name"><img src="Union.svg" alt="Brand Logo icon and Name- Neptune"></span>
+            </div>
+
+            <div class="user-card">
+                <div class="leftdiv">
+                    <div class="user-card__img"><img src="Group 79.svg"></div>
+                    <div class="user-card__info">
+                        <span class="user-card__name">Jessica Thompson</span>
+                        <span class="user-card__role">Primary User</span>
+                    </div>
+                </div>
+                <div>
+                    <img id="icon__right" src="Icon Right.svg" alt="icon pointing below">
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#" class="nav__item">
+                    <div class="nav__menu">
+                        <div class="nav__icon"><img src="home 1.svg" alt="home icon"></div>
+                        <div class="nav__text">Home</div>
+                    </div>
+                </a>
+                <a href="#" class="nav__item nav__item--active">
+                    <div class="nav__menu">
+                        <div class="nav__icon"><img src="file-text 1.svg" alt="Document icon"></div>
+                        <div class="nav__text">Documents</div>
+                    </div>
+                </a>
+
+                <a href="#" class="nav__item">
+                    <div class="nav__menu">
+                        <div class="nav__icon"><img src="message-circle 1.svg" alt="Chat icon"></div>
+                        <div class="nav__text">Chat with Neptune</div>
+                    </div>
+                </a>
+                <a href="#" class="nav__item">
+                    <div class="nav__menu">
+                        <div class="nav__icon"><img src="help-circle 1.svg" alt="Help icon"></div>
+                        <div class="nav__text">Help</div>
+                    </div>
+                </a>
+                <a href="#" class="nav__item">
+                    <div class="nav__menu">
+                        <div class="nav__icon"><img src="settings 1.svg" alt="Setting icon"></div>
+                        <div class="nav__text">Settings</div>
+                    </div>
+                </a>
+            </nav>
+
+        </div>
+
+        <div class="sidebar__bottom">
+            <img id="phone__icon" src="phone 1.svg" alt="phone icon">
+            <p class="support__title">Having trouble?</p>
+            <p class="support__text">
+                Feel free to contact us and we will always help you through the process.
+            </p>
+            <button class="support__button">Contact us</button>
+        </div>
+    </aside>
+    <div class="page">
+
+        <div class="breadcrumb">
+            <span class="breadcrumb-link">Home</span>
+            <span class="breadcrumb-separator"><img src="chevron-right.svg"></span>
+            <span class="breadcrumb-current">Documents</span>
+        </div>
+
+        <div class="header">
+            <h1 class="page-title">My Documents</h1>
+
+            <div class="search-box">
+                <input type="text" placeholder="Search documents" />
+                <span class="search-icon"><img src="Layer_1.svg"></span>
+            </div>
+        </div>
+
+        <div class="table-card">
+            <table class="documents-table">
+                <thead>
+                    <tr>
+                        <th class="col-checkbox">
+                            <input type="checkbox" />
+                        </th>
+                        <th class="col-name">Document Name</th>
+                        <th class="col-status">Status</th>
+                        <th class="col-date">Last Modified</th>
+                        <th class="col-action"></th>
+                        <th class="col-menu"></th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status needs-signing">Needs Signing</span>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Sign now</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status pending">Pending</span>
+                            <div class="status-sub">Waiting for <strong>1 person</strong></div>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Preview</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status pending">Pending</span>
+                            <div class="status-sub">Waiting for <strong>2 people</strong></div>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Preview</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status completed">Completed</span>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Download PDF</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status completed">Completed</span>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Download PDF</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="checkbox" /></td>
+                        <td class="doc-title">Title of Document Goes Here</td>
+                        <td>
+                            <span class="status completed">Completed</span>
+                        </td>
+                        <td class="date">
+                            10/22/2024<br /><span>2:01 pm</span>
+                        </td>
+                        <td>
+                            <button class="btn-outline">Download PDF</button>
+                        </td>
+                        <td class="menu"><img src="Vector.svg"></td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+</html>
